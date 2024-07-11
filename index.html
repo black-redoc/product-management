@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="product management" />
+    <meta name="keywords" content="product management" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Management</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: 100%;
+      }
+
+      .container {
+        margin: 30px;
+      }
+      .title {
+        text-align: center;
+      }
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 800px;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        & h2 {
+          font-size: 20px;
+          width: 200px;
+          color: #fff;
+        }
+        & svg {
+          width: 50px;
+          height: 50px;
+          color: #fff;
+        }
+        & section {
+          cursor: pointer;
+          border-radius: 20px;
+          padding: 20px;
+          background-color: #000000;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">Product Management</h1>
+      <article class="content">
+        <section onclick="window.location.href='what-is-product.html'">
+          <h2>Que es el producto?</h2>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-building-factory-2"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 21h18" />
+              <path d="M5 21v-12l5 4v-4l5 4h4" />
+              <path
+                d="M19 21v-8l-1.436 -9.574a.5 .5 0 0 0 -.495 -.426h-1.145a.5 .5 0 0 0 -.494 .418l-1.43 8.582"
+              />
+              <path d="M9 17h1" />
+              <path d="M14 17h1" />
+            </svg>
+          </div>
+        </section>
+        <section onclick="window.location.href='how-to-get-a-product.html'">
+          <h2>Como conseguir un producto?</h2>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-road"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 19l4 -14" />
+              <path d="M16 5l4 14" />
+              <path d="M12 8v-2" />
+              <path d="M12 13v-2" />
+              <path d="M12 18v-2" />
+            </svg>
+          </div>
+        </section>
+        <section onclick="window.location.href='product-actors.html'">
+          <h2>Actores que participan en el producto</h2>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-users-group"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+              <path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" />
+              <path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+              <path d="M17 10h2a2 2 0 0 1 2 2v1" />
+              <path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+              <path d="M3 13v-1a2 2 0 0 1 2 -2h2" />
+            </svg>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
